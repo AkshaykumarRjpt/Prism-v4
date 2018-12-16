@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using Microsoft.Practices.Prism.Modularity;
 using ModuleA;
+using Microsoft.Practices.Prism.Regions;
+using System.Windows.Controls;
+using PrismDemo.Infrastucture;
 
 namespace PrismDemo
 {
@@ -39,6 +42,12 @@ namespace PrismDemo
             });
         }
 
+        protected override RegionAdapterMappings ConfigureRegionAdapterMappings()
+        {
+            RegionAdapterMappings mapping =  base.ConfigureRegionAdapterMappings();
+            mapping.RegisterMapping(typeof(StackPanel),Container.Resolve<StackPanalRegionAdapter>());
+            return mapping;
+        }
        
     }
 }

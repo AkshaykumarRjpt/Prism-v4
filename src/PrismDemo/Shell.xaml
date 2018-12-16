@@ -5,7 +5,7 @@
         xmlns:inf="clr-namespace:PrismDemo.Infrastucture;assembly=PrismDemo.Infrastucture"        
         Title="Shell">
     <DockPanel>
-        <ItemsControl DockPanel.Dock="Top" prism:RegionManager.RegionName ="{x:Static inf:RegionNames.ToolBarRegion}"/>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" prism:RegionManager.RegionName ="{x:Static inf:RegionNames.ToolBarRegion}"/>
         <ContentControl DockPanel.Dock="Top" prism:RegionManager.RegionName="{x:Static inf:RegionNames.ContentRegion}"/>
     </DockPanel>
 </Window>
