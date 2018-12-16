@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo", "src\PrismDemo\PrismDemo.csproj", "{0609FA60-7684-4544-9F01-BD7673FA65E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismDemo.Infrastucture", "src\PrismDemo.Infrastucture\PrismDemo.Infrastucture.csproj", "{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{CA98AD77-41A0-4842-9FBF-452C70E85C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A89EE63C-1156-41B5-B999-DC5027C74301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0609FA60-7684-4544-9F01-BD7673FA65E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0609FA60-7684-4544-9F01-BD7673FA65E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0609FA60-7684-4544-9F01-BD7673FA65E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0609FA60-7684-4544-9F01-BD7673FA65E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
