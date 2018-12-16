@@ -1,0 +1,14 @@
+Region manager
+
+=> maintains the collection of regions.
+=> Provide RegionName attached property
+=> Maps RegionAdapter to control.(region manger is responsible for associating a region to host control)
+
+RegionAdapter
+
+=> ContentControlRegionAdapter(which adapts control of type ContentControl and its derrived classes)
+=> ItemControlRegionAdapter  (which adaptes control of ItemControl and its derrived classes)
+=> SelectRegionAdapter (which adapts control derrived from selector class such as TabControl)
+=> TabControlRegionAdapter ( only for silverlight because Tabcontrol in silverlight doesnot derive from selctor class and behaves 
+slight different from WPF)
+=> custom

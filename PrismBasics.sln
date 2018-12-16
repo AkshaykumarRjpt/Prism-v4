@@ -9,6 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{CA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A89EE63C-1156-41B5-B999-DC5027C74301}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theory", "Theory", "{C34CBFE8-8E9B-453C-B076-18309F8D2768}"
+	ProjectSection(SolutionItems) = preProject
+		Regions.txt = Regions.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{93E9D790-6E9F-4602-9F97-64875E4B6799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,8 +30,15 @@ Global
 		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F49AD1C-B18A-42E7-AD76-51B2E82FA74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E9D790-6E9F-4602-9F97-64875E4B6799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E9D790-6E9F-4602-9F97-64875E4B6799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E9D790-6E9F-4602-9F97-64875E4B6799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E9D790-6E9F-4602-9F97-64875E4B6799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93E9D790-6E9F-4602-9F97-64875E4B6799} = {A89EE63C-1156-41B5-B999-DC5027C74301}
 	EndGlobalSection
 EndGlobal
