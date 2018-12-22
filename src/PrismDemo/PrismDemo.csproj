@@ -106,12 +106,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Resource Include="XamlCatalog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ModuleA\ModuleA.csproj">
-      <Project>{93e9d790-6e9f-4602-9f97-64875e4b6799}</Project>
-      <Name>ModuleA</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PrismDemo.Infrastucture\PrismDemo.Infrastucture.csproj">
       <Project>{0f49ad1c-b18a-42e7-ad76-51b2e82fa74f}</Project>
       <Name>PrismDemo.Infrastucture</Name>
